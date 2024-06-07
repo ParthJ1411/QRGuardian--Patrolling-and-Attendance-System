@@ -37,7 +37,7 @@
   <meta name="twitter:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <title> QRGuardian </title>
+  <title> QRGuardian System </title>
   <meta name="description" content="Built with FlutterFlow." />
     
 
@@ -55,11 +55,12 @@
   
   
   <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
+    // eslint-disable-next-line
+    window.addEventListener('flutter-first-frame', function () {
+      if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('flutter_service_worker.js?v=');
-      });
-    }
+      }
+    });
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 
