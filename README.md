@@ -2,4 +2,4 @@ QRGuardian - Attendance and Patrolling System is a cutting-edge solution that en
 
 Due to Deployment Issues you can view it on https://qrguardian.flutterflow.app/.
 
-for Project Demo input the username as user@gmail.com and the password is same as the username
+For Project Demo input the username as user@gmail.com and the password is same as the username
