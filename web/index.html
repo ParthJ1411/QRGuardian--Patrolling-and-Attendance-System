@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="QRGuardian">
+
+  
+
+  <meta name="robots" content="noindex" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="QRGuardian" />
+  <meta property="og:description" content="QRGuardian - Attendance and Patrolling System is a cutting-edge solution that enhances attendance tracking and security patrolling efficiency. Utilizing advanced QR codes and GeoFencing technologies, QRGuardian provides a robust platform for businesses, educational institutions, and security firms to effectively manage personnel and assets." />
+  <meta property="og:image" content="/assets/assets/images/_995b76fa-1d7c-4edc-af41-a4e026ad7141.jpeg" /> 
+  <meta name="twitter:title" content="QRGuardian" />
+  <meta name="twitter:description" content="QRGuardian - Attendance and Patrolling System is a cutting-edge solution that enhances attendance tracking and security patrolling efficiency. Utilizing advanced QR codes and GeoFencing technologies, QRGuardian provides a robust platform for businesses, educational institutions, and security firms to effectively manage personnel and assets." />
+  <meta name="twitter:image" content="/assets/assets/images/_995b76fa-1d7c-4edc-af41-a4e026ad7141.jpeg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> QRGuardian </title>
+  <meta name="description" content="QRGuardian - Attendance and Patrolling System is a cutting-edge solution that enhances attendance tracking and security patrolling efficiency. Utilizing advanced QR codes and GeoFencing technologies, QRGuardian provides a robust platform for businesses, educational institutions, and security firms to effectively manage personnel and assets." />
+    
+
+  <!-- Status Bar color in Safari browser (iOS) and PWA -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f1f4f8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1a1f24">
+
+  <link rel="manifest" href="manifest.json">
+  
+</head>
+<body>
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK-_jnP9uRwH3TOW-6N-tklS_LW8GPKfU"></script>
+  
+  
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+
+</body>
+</html>
